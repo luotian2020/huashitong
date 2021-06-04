@@ -2,7 +2,7 @@ from selenium import webdriver
 from huadong import scroll
 import time
 from downloadpic import savepic
-browser = webdriver.Edge('E:\python\msedgedriver.exe') # 创建一个浏览器对象,这里还可以使用chrome等浏览器
+browser = webdriver.Edge('E:\python\msedgedriver.exe') # 创建一个浏览器对象,这里还可以使用chrome等浏览器,注意版本要与自己的电脑上匹配，引号内容为驱动地址。
 browser.maximize_window()
 try:
     for page in range(1,2):
